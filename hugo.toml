@@ -1,6 +1,7 @@
 baseURL = 'https://owenby.github.io/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+theme = "hugo-book"
 
 [caches]
   [caches.images]
