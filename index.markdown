@@ -45,7 +45,7 @@ layout: home
           </a>
         </li>
         <li>
-          <a href="/articles/">
+          <a href="/articles/index.md">
             <div class="frame" aria-hidden="true">
               <div class="shadow">
                 <img src="/assets/icons/test3.jpg" width="400" height="400" />
