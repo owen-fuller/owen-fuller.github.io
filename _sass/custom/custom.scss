@@ -1,0 +1,47 @@
+// .side-bar {
+//   width: 10%;
+//  }
+.side-bar {
+  z-index: 0;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: $sidebar-color;
+
+  @include mq(md) {
+    flex-flow: column nowrap;
+    position: fixed;
+    width: $nav-width-md;
+    height: 100%;
+    border-right: $border $border-color;
+    align-items: flex-end;
+  }
+
+  @include mq(lg) {
+    width: calc((100% - #{$nav-width + $content-width}) / 20 + #{$nav-width});
+    min-width: $nav-width;
+  }
+}
+
+
+
+
+.grid-4x4 {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 20px; /* adjust spacing */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.grid-4x4 li {
+  text-align: center;
+}
+
+.grid-4x4 img {
+  width: 100%;         /* fill the grid cell width */
+  aspect-ratio: 1 / 1; /* force square shape */
+  object-fit: cover;   /* crop edges if needed to fit */
+  display: block;
+  border-radius: 0px;  /* optional, makes them look neat */
+}

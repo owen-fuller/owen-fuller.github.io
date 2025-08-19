@@ -1,0 +1,33 @@
+{
+    "editor.minimap.enabled": false,
+    "explorer.confirmDelete": false,
+    "editor.fontFamily": "Pragmata Pro, monospace",
+    "terminal.integrated.fontFamily": "monospace",
+    "editor.fontSize": 16,
+    "editor.accessibilitySupport": "off",
+    "cmake.showOptionsMovedNotification": false,
+    "workbench.sideBar.location": "right",
+    "breadcrumbs.enabled": false,
+    "jupyter.askForKernelRestart": false,
+    "apc.electron": {
+        "titleBarStyle": "hidden",
+      },
+      "window.zoomLevel": 1,
+    "workbench.editor.editorActionsLocation": "hidden",
+    "chat.commandCenter.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.navigationControl.enabled": false,
+    "window.commandCenter": false,
+    "editor.glyphMargin": false,
+    "workbench.colorTheme": "Gruvbox Light Hard",
+    "window.autoDetectColorScheme": true,
+    "workbench.preferredLightColorTheme": "GitHub Light Default",
+    "workbench.preferredDarkColorTheme": "Gruvbox Dark Hard",
+    "editor.autoClosingQuotes": "never",
+    "makefile.configureOnOpen": true,
+    "zenMode.fullScreen": false,
+
+
+
+
+  }
