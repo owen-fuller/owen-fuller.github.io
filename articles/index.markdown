@@ -8,7 +8,6 @@ permalink: /articles
 
 # Test
 
-
 <!-- <div class="post-list"> -->
 <!--   <p> -->
 <!--     Mostly tech. <a href="/feed.xml">Subscribe</a> through RSS. -->
@@ -33,7 +32,6 @@ permalink: /articles
 <!--     {% endfor %} -->
 <!--   </ul> -->
 <!-- </div> -->
-
 
 <ul>
   {% for post in site.articles%}
