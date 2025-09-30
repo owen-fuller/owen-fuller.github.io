@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sidebar Article
-permalink: /test/
+# permalink: /test/
 ---
 
 # This is a test
