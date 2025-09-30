@@ -21,13 +21,29 @@
     "editor.glyphMargin": false,
     "workbench.colorTheme": "Gruvbox Light Hard",
     "window.autoDetectColorScheme": true,
-    "workbench.preferredLightColorTheme": "GitHub Light Default",
+    "workbench.preferredLightColorTheme": "GitHub Dark Default",
     "workbench.preferredDarkColorTheme": "Gruvbox Dark Hard",
     "editor.autoClosingQuotes": "never",
     "makefile.configureOnOpen": true,
     "zenMode.fullScreen": false,
+    "vim.cursorStylePerMode.insert": "line",
+    "vim.cursorStylePerMode.normal": "block",
+    "vim.cursorStylePerMode.replace": "block-outline",
+    "vim.cursorStylePerMode.visual": "line-thin",
+    "vim.cursorStylePerMode.visualblock": "line-thin",
+    "vim.cursorStylePerMode.visualline": "underline",
+    
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#6b9ceba1",
+        // "editor.selectionHighlightBackground": "#000000",
+        // "editor.selectionForeground": "#ffffff",
+        // "editor.selectionHighlightBorder": "#f0f0f0",       
+        "editorCursor.foreground": "#6b9ceba1",
+        "editorCursor.background": "#ffffff"
+    },
+ 
 
-
-
+  
 
   }
+

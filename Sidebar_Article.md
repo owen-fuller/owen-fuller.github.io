@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Vscode Config
+title: Sidebar Article
 permalink: /test/
 ---
 
 # This is a test
-*bruh*
-sussy
+*Hello*
+Code test
 
 ``` python
 import pandas as pd

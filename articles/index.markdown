@@ -6,7 +6,9 @@ categories: jekyll update
 permalink: /articles
 ---
 
-# Test
+# Articles
+
+Tools, ideas, things that are interesting
 
 <!-- <div class="post-list"> -->
 <!--   <p> -->
