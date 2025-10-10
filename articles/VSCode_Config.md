@@ -9,9 +9,11 @@ parent: "Articles"
 
 Here are my VSCode config files.
 [settings.json](/assets/files/settings.json)
+[keybindings.json](/assets/files/keybindings.json)
 
 Useful Extensions:
 - Vim
-- Preview
+- Python, Jupyter
 - Rainbow CSV
 - Preview, for previewing markdown/html
+- GitHub Themes

@@ -3,6 +3,7 @@
   "explorer.confirmDelete": false,
   "editor.fontFamily": "Pragmata Pro, monospace",
   "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.fontSize": 14,
   "editor.fontSize": 16,
   "editor.accessibilitySupport": "off",
   "cmake.showOptionsMovedNotification": false,
@@ -75,5 +76,16 @@
         "k"
       ]
     },
-  ]
+  ],
+  "continue.telemetryEnabled": false,
+  "search.defaultViewMode": "tree",
+  "workbench.activityBar.location": "hidden",
+
+  
+
+
+
+
+
+
 }

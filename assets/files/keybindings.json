@@ -1,0 +1,119 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "alt+enter",
+        "command": "notebook.execute"
+    },
+    {
+        "key": "shift+f5",
+        "command": "-cmake.debugTarget",
+        "when": "cmake:enableFullFeatureSet && inCMakeProject && !cmake:hideDebugCommand && !inDebugMode"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "cmake.launchTarget",
+        "when": "cmake:enableFullFeatureSet && !cmake:hideDebugCommand && !inDebugMode"
+    },
+    {
+        "key": "ctrl+shift+f5",
+        "command": "-cmake.launchTarget",
+        "when": "cmake:enableFullFeatureSet && !cmake:hideDebugCommand && !inDebugMode"
+    },
+    {
+        "key": "f7",
+        "command": "cmake.buildWithTarget",
+        "when": "cmake:enableFullFeatureSet && !cmake:hideBuildCommand"
+    },
+    {
+        "key": "shift+f7",
+        "command": "-cmake.buildWithTarget",
+        "when": "cmake:enableFullFeatureSet && !cmake:hideBuildCommand"
+    },
+    {
+        "key": "ctrl+shift+enter",
+        "command": "cmake.build",
+        "when": "cmake:enableFullFeatureSet && !cmake:hideBuildCommand"
+    },
+    {
+        "key": "f7",
+        "command": "-cmake.build",
+        "when": "cmake:enableFullFeatureSet && !cmake:hideBuildCommand"
+    },
+    {
+        "key": "cmd+enter",
+        "command": "python.execInTerminal-icon"
+    },
+    {
+        "key": "f9",
+        "command": "search.action.focusNextSearchResult",
+        "when": "hasSearchResult || inSearchEditor"
+    },
+    {
+        "key": "f4",
+        "command": "-search.action.focusNextSearchResult",
+        "when": "hasSearchResult || inSearchEditor"
+    },
+    {
+        "key": "f8",
+        "command": "search.action.focusPreviousSearchResult",
+        "when": "hasSearchResult || inSearchEditor"
+    },
+    {
+        "key": "shift+f4",
+        "command": "-search.action.focusPreviousSearchResult",
+        "when": "hasSearchResult || inSearchEditor"
+    },
+
+
+  {
+    "key": "cmd+e",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "activeViewlet == 'workbench.view.explorer'"
+  },
+  {
+    "key": "cmd+e",
+    "command": "workbench.view.explorer",
+    "when": "activeViewlet != 'workbench.view.explorer'"
+  },
+  {
+    "key": "cmd+f",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "activeViewlet == 'workbench.view.search'"
+  },
+  {
+    "key": "cmd+f",
+    "command": "workbench.view.search",
+    "when": "activeViewlet != 'workbench.view.search'"
+  },
+  {
+    "key": "cmd+g",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "activeViewlet == 'workbench.view.scm'"
+  },
+  {
+    "key": "cmd+g",
+    "command": "workbench.view.scm",
+    "when": "activeViewlet != 'workbench.view.scm'"
+  },
+  {
+    "key": "cmd+shift+d",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "activeViewlet == 'workbench.view.debug'"
+  },
+  {
+    "key": "cmd+shift+d",
+    "command": "workbench.view.debug",
+    "when": "activeViewlet != 'workbench.view.debug'"
+  },
+  {
+    "key": "cmd+shift+x",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "activeViewlet == 'workbench.view.extensions'"
+  },
+  {
+    "key": "cmd+shift+x",
+    "command": "workbench.view.extensions",
+    "when": "activeViewlet != 'workbench.view.extensions'"
+  }
+]
+ 
