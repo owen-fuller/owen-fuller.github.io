@@ -18,3 +18,7 @@ Useful Extensions:
 - Rainbow CSV
 - Preview, for previewing markdown/html
 - GitHub Themes
+
+Here are my emacs config files.
+[early-init.el](/assets/files/early-init.el)
+[init.el](/assets/files/init.el)
