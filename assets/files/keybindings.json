@@ -1,119 +1,154 @@
 // Place your key bindings in this file to override the defaults
 [
-    {
-        "key": "alt+enter",
-        "command": "notebook.execute"
-    },
-    {
-        "key": "shift+f5",
-        "command": "-cmake.debugTarget",
-        "when": "cmake:enableFullFeatureSet && inCMakeProject && !cmake:hideDebugCommand && !inDebugMode"
-    },
-    {
-        "key": "ctrl+enter",
-        "command": "cmake.launchTarget",
-        "when": "cmake:enableFullFeatureSet && !cmake:hideDebugCommand && !inDebugMode"
-    },
-    {
-        "key": "ctrl+shift+f5",
-        "command": "-cmake.launchTarget",
-        "when": "cmake:enableFullFeatureSet && !cmake:hideDebugCommand && !inDebugMode"
-    },
-    {
-        "key": "f7",
-        "command": "cmake.buildWithTarget",
-        "when": "cmake:enableFullFeatureSet && !cmake:hideBuildCommand"
-    },
-    {
-        "key": "shift+f7",
-        "command": "-cmake.buildWithTarget",
-        "when": "cmake:enableFullFeatureSet && !cmake:hideBuildCommand"
-    },
-    {
-        "key": "ctrl+shift+enter",
-        "command": "cmake.build",
-        "when": "cmake:enableFullFeatureSet && !cmake:hideBuildCommand"
-    },
-    {
-        "key": "f7",
-        "command": "-cmake.build",
-        "when": "cmake:enableFullFeatureSet && !cmake:hideBuildCommand"
-    },
-    {
-        "key": "cmd+enter",
-        "command": "python.execInTerminal-icon"
-    },
-    {
-        "key": "f9",
-        "command": "search.action.focusNextSearchResult",
-        "when": "hasSearchResult || inSearchEditor"
-    },
-    {
-        "key": "f4",
-        "command": "-search.action.focusNextSearchResult",
-        "when": "hasSearchResult || inSearchEditor"
-    },
-    {
-        "key": "f8",
-        "command": "search.action.focusPreviousSearchResult",
-        "when": "hasSearchResult || inSearchEditor"
-    },
-    {
-        "key": "shift+f4",
-        "command": "-search.action.focusPreviousSearchResult",
-        "when": "hasSearchResult || inSearchEditor"
-    },
-
-
   {
-    "key": "cmd+e",
+    "command": "notebook.execute",
+    "key": "alt+enter"
+  },
+  {
+    "command": "-cmake.debugTarget",
+    "key": "shift+f5",
+    "when": "cmake:enableFullFeatureSet && inCMakeProject && !cmake:hideDebugCommand && !inDebugMode"
+  },
+  {
+    "command": "cmake.launchTarget",
+    "key": "ctrl+enter",
+    "when": "cmake:enableFullFeatureSet && !cmake:hideDebugCommand && !inDebugMode"
+  },
+  {
+    "command": "-cmake.launchTarget",
+    "key": "ctrl+shift+f5",
+    "when": "cmake:enableFullFeatureSet && !cmake:hideDebugCommand && !inDebugMode"
+  },
+  {
+    "command": "cmake.buildWithTarget",
+    "key": "f7",
+    "when": "cmake:enableFullFeatureSet && !cmake:hideBuildCommand"
+  },
+  {
+    "command": "-cmake.buildWithTarget",
+    "key": "shift+f7",
+    "when": "cmake:enableFullFeatureSet && !cmake:hideBuildCommand"
+  },
+  {
+    "command": "cmake.build",
+    "key": "ctrl+shift+enter",
+    "when": "cmake:enableFullFeatureSet && !cmake:hideBuildCommand"
+  },
+  {
+    "command": "-cmake.build",
+    "key": "f7",
+    "when": "cmake:enableFullFeatureSet && !cmake:hideBuildCommand"
+  },
+  {
+    "command": "python.execInTerminal-icon",
+    "key": "cmd+enter"
+  },
+  {
+    "command": "search.action.focusNextSearchResult",
+    "key": "f9",
+    "when": "hasSearchResult || inSearchEditor"
+  },
+  {
+    "command": "-search.action.focusNextSearchResult",
+    "key": "f4",
+    "when": "hasSearchResult || inSearchEditor"
+  },
+  {
+    "command": "search.action.focusPreviousSearchResult",
+    "key": "f8",
+    "when": "hasSearchResult || inSearchEditor"
+  },
+  {
+    "command": "-search.action.focusPreviousSearchResult",
+    "key": "shift+f4",
+    "when": "hasSearchResult || inSearchEditor"
+  },
+  {
     "command": "workbench.action.toggleSidebarVisibility",
+    "key": "cmd+shift+e",
     "when": "activeViewlet == 'workbench.view.explorer'"
   },
   {
-    "key": "cmd+e",
     "command": "workbench.view.explorer",
+    "key": "cmd+shift+e",
     "when": "activeViewlet != 'workbench.view.explorer'"
   },
   {
-    "key": "cmd+f",
     "command": "workbench.action.toggleSidebarVisibility",
+    "key": "cmd+f",
     "when": "activeViewlet == 'workbench.view.search'"
   },
   {
-    "key": "cmd+f",
     "command": "workbench.view.search",
+    "key": "cmd+f",
     "when": "activeViewlet != 'workbench.view.search'"
   },
   {
-    "key": "cmd+g",
     "command": "workbench.action.toggleSidebarVisibility",
+    "key": "cmd+g",
     "when": "activeViewlet == 'workbench.view.scm'"
   },
   {
-    "key": "cmd+g",
     "command": "workbench.view.scm",
+    "key": "cmd+g",
     "when": "activeViewlet != 'workbench.view.scm'"
   },
   {
-    "key": "cmd+shift+d",
     "command": "workbench.action.toggleSidebarVisibility",
+    "key": "cmd+shift+d",
     "when": "activeViewlet == 'workbench.view.debug'"
   },
   {
-    "key": "cmd+shift+d",
     "command": "workbench.view.debug",
+    "key": "cmd+shift+d",
     "when": "activeViewlet != 'workbench.view.debug'"
   },
   {
-    "key": "cmd+shift+x",
     "command": "workbench.action.toggleSidebarVisibility",
+    "key": "cmd+shift+x",
     "when": "activeViewlet == 'workbench.view.extensions'"
   },
   {
-    "key": "cmd+shift+x",
     "command": "workbench.view.extensions",
+    "key": "cmd+shift+x",
     "when": "activeViewlet != 'workbench.view.extensions'"
+  },
+  {
+    "command": "workbench.action.openRecent",
+    "key": "cmd+o"
+  },
+  {
+    "command": "-workbench.action.openRecent",
+    "key": "ctrl+r"
+  },
+  {
+    "command": "workbench.action.focusLeftGroup",
+    "key": "cmd+h"
+  },
+  {
+    "command": "workbench.action.focusRightGroup",
+    "key": "cmd+l"
+  },
+  {
+    "command": "workbench.files.action.focusFilesExplorer",
+    "key": "cmd+e"
+  },
+  {
+    "command": "workbench.action.focusFirstEditorGroup",
+    "key": "cmd+k"
+  },
+  {
+    "command": "workbench.action.terminal.focus",
+    "key": "cmd+j"
+  },
+  {
+    "command": "workbench.action.terminal.toggleTerminal",
+    "key": "shift+cmd+t",
+    "when": "terminal.active"
+  },
+  {
+    "command": "-workbench.action.terminal.toggleTerminal",
+    "key": "ctrl+`",
+    "when": "terminal.active"
   }
 ]
- 

@@ -14,6 +14,7 @@ Here are my VSCode config files.
 Useful Extensions:
 - Vim
 - Python, Jupyter
+- Black
 - Rainbow CSV
 - Preview, for previewing markdown/html
 - GitHub Themes

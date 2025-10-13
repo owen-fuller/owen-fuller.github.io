@@ -3,8 +3,8 @@
   "explorer.confirmDelete": false,
   "editor.fontFamily": "Pragmata Pro, monospace",
   "terminal.integrated.fontFamily": "monospace",
-  "terminal.integrated.fontSize": 14,
-  "editor.fontSize": 16,
+  "terminal.integrated.fontSize": 16,
+  "editor.fontSize": 18,
   "editor.accessibilitySupport": "off",
   "cmake.showOptionsMovedNotification": false,
   "workbench.sideBar.location": "right",
@@ -13,8 +13,7 @@
   "apc.electron": {
     "titleBarStyle": "hidden",
   },
-  "window.zoomLevel": 1,
-  "workbench.editor.editorActionsLocation": "hidden",
+  "window.zoomLevel": 0.8,
   "chat.commandCenter.enabled": false,
   "workbench.layoutControl.enabled": false,
   "workbench.navigationControl.enabled": false,
@@ -22,7 +21,7 @@
   "editor.glyphMargin": false,
   "window.autoDetectColorScheme": true,
   "workbench.preferredLightColorTheme": "GitHub Light Default",
-  "workbench.preferredDarkColorTheme": "GitHub Dark Default",
+  "workbench.preferredDarkColorTheme": "Gruvbox Dark Hard",
   "editor.autoClosingQuotes": "never",
   "makefile.configureOnOpen": true,
   "zenMode.fullScreen": false,
@@ -34,11 +33,8 @@
   "vim.cursorStylePerMode.visualline": "underline",
   "workbench.colorCustomizations": {
     "editor.selectionBackground": "#6b9ceba1",
-    // "editor.selectionHighlightBackground": "#000000",
-    // "editor.selectionForeground": "#ffffff",
-    // "editor.selectionHighlightBorder": "#f0f0f0",       
     "editorCursor.foreground": "#6b9ceba1",
-    "editorCursor.background": "#ffffff"
+    "editorCursor.background": "#ffffff",
   },
   "editor.scrollbar.vertical": "visible",
   "editor.scrollbar.verticalScrollbarSize": 8,
@@ -52,12 +48,27 @@
     {
       "before": [
         "leader",
-        "w"
+        "x"
       ],
       "commands": [
         "workbench.action.files.save",
       ]
     },
+
+    {"before": ["<leader>", "<leader>"],
+    "commands": ["workbench.action.quickOpen"]},
+    {"before": ["<leader>", ";"],
+    "commands": ["workbench.action.showCommands"]},
+    {"before": ["<leader>", "w","e"],
+    "commands": ["workbench.action.splitEditor"]},
+    {"before": ["<leader>", "w","i"],
+    "commands": ["workbench.action.splitEditorDown"]},
+    {"before": ["<leader>", "w","n"],
+    "commands": ["workbench.action.focusLeftGroup"]},
+    {"before": ["<leader>", "w","o"],
+    "commands": ["workbench.action.focusRightGroup"]},
+
+
     {
       "before": [
         "J"
@@ -80,6 +91,14 @@
   "continue.telemetryEnabled": false,
   "search.defaultViewMode": "tree",
   "workbench.activityBar.location": "hidden",
+  "terminal.external.osxExec": "Alacritty.app",
+"[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+  "editor.folding": false,
+  "window.customTitleBarVisibility": "windowed",
+  "window.title": "${activeEditorLong}${separator}${rootName}${separator}${profileName}"
 
   
 
