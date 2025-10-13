@@ -52,7 +52,7 @@
       ],
       "commands": [
         "workbench.action.files.save",
-        "workbench.action.closeActiveEditor"
+        "workbench.action.closeActiveEditor",
       ]
     },
 
