@@ -10,17 +10,13 @@
   "workbench.sideBar.location": "right",
   "breadcrumbs.enabled": false,
   "jupyter.askForKernelRestart": false,
-  "apc.electron": {
-    "titleBarStyle": "hidden",
-  },
   "window.zoomLevel": 0.8,
   "chat.commandCenter.enabled": false,
   "workbench.layoutControl.enabled": false,
   "workbench.navigationControl.enabled": false,
   "window.commandCenter": false,
-  "editor.glyphMargin": false,
   "window.autoDetectColorScheme": true,
-  "workbench.preferredLightColorTheme": "GitHub Light Default",
+  "workbench.preferredLightColorTheme": "Gruvbox Dark Medium",
   "workbench.preferredDarkColorTheme": "Gruvbox Dark Hard",
   "editor.autoClosingQuotes": "never",
   "makefile.configureOnOpen": true,
@@ -55,6 +51,7 @@
         "workbench.action.closeActiveEditor",
       ]
     },
+
 
     {"before": ["<leader>", "<leader>"],
     "commands": ["workbench.action.quickOpen"]},
@@ -91,7 +88,6 @@
   ],
   "continue.telemetryEnabled": false,
   "search.defaultViewMode": "tree",
-  "workbench.activityBar.location": "hidden",
   "terminal.external.osxExec": "Alacritty.app",
 "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter",
@@ -99,7 +95,14 @@
   },
   "editor.folding": false,
   "window.customTitleBarVisibility": "windowed",
-  "window.title": "${activeEditorLong}${separator}${rootName}${separator}${profileName}"
+  "window.title": "${activeEditorLong}${separator}${rootName}${separator}${profileName}",
+  "workbench.activityBar.location": "top",
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "editor.glyphMargin": true,
+  "chat.agent.enabled": false,
+  "chat.extensionTools.enabled": false,
+  "chat.emptyChatState.enabled": false,
+  "chat.detectParticipant.enabled": false
 
   
 

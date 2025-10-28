@@ -150,5 +150,30 @@
     "command": "-workbench.action.terminal.toggleTerminal",
     "key": "ctrl+`",
     "when": "terminal.active"
-  }
+  },
+  {
+    "key": "shift+cmd+o",
+    "command": "workbench.action.files.openFolder"
+  },
+  {
+  "key": "cmd+shift+enter",                 // or any key you prefer
+  "command": "workbench.action.terminal.sendSequence",
+  "args": { "text": "\u001b[A\u000D" }, // ↑ then Enter
+},
+{
+  "key": "cmd+shift+r",                 // or any key you prefer
+  "command": "workbench.action.terminal.sendSequence",
+  "args": { "text": "make\u000D" }, // ↑ then Enter
+},
+{
+  "key": "cmd+/",
+  "command": "runCommands",
+  "args": {
+    "commands": [
+      "editor.action.commentLine",
+      "cursorDown"
+    ]
+  },
+  "when": "editorTextFocus && !editorReadonly"
+}
 ]
