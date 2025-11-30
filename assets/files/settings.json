@@ -1,23 +1,20 @@
 {
-  "editor.minimap.enabled": false,
   "explorer.confirmDelete": false,
-  "editor.fontFamily": "Pragmata Pro, monospace",
   "terminal.integrated.fontFamily": "monospace",
-  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontSize": 17,
   "editor.fontSize": 18,
   "editor.accessibilitySupport": "off",
   "cmake.showOptionsMovedNotification": false,
   "workbench.sideBar.location": "right",
   "breadcrumbs.enabled": false,
   "jupyter.askForKernelRestart": false,
-  "window.zoomLevel": 0.8,
+  "window.zoomLevel": 0.6,
   "chat.commandCenter.enabled": false,
   "workbench.layoutControl.enabled": false,
   "workbench.navigationControl.enabled": false,
   "window.commandCenter": false,
   "window.autoDetectColorScheme": true,
   "workbench.preferredLightColorTheme": "Gruvbox Dark Medium",
-  "workbench.preferredDarkColorTheme": "Gruvbox Dark Hard",
   "editor.autoClosingQuotes": "never",
   "makefile.configureOnOpen": true,
   "zenMode.fullScreen": false,
@@ -34,7 +31,6 @@
   },
   "editor.scrollbar.vertical": "visible",
   "editor.scrollbar.verticalScrollbarSize": 8,
-  "explorer.sortOrder": "type",
   "vim.leader": "<space>",
   // To improve performance
   "extensions.experimental.affinity": {
@@ -102,13 +98,60 @@
   "chat.agent.enabled": false,
   "chat.extensionTools.enabled": false,
   "chat.emptyChatState.enabled": false,
-  "chat.detectParticipant.enabled": false
+  "chat.detectParticipant.enabled": false,
+  "editor.hover.delay": 500,
+  "editor.minimap.enabled": false,
+  "debug.console.fontSize": 16,
+  "todohighlight.isEnable": true,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "C_Cpp.copilotHover": "disabled",
+  "C_Cpp.default.includePath": [
+    "/opt/homebrew/include/",
+    "/opt/homebrew/Cellar/opencv/",
+    "/opt/homebrew/opt/opencv/include/opencv4/"
+  ],
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "cpp": false
+  },
+  "editor.fontFamily": "Iosevka",
+  "workbench.preferredDarkColorTheme": "Gruvbox Dark Hard"
 
   
 
 
 
 
+  "window.titleBarStyle": "native",
+  "window.customTitleBarVisibility": "never",
+  "custom-ui-style.electron": {
+      // Frameless window (no title bar, no MacOS traffic light buttons)
+      //  - "A frameless window removes all chrome applied by the OS, including window controls"
+      //  - https://www.electronjs.org/docs/latest/api/base-window#new-basewindowoptions
+      //  - https://www.electronjs.org/docs/latest/tutorial/custom-window-styles#frameless-windows
+      //  - https://www.electronjs.org/docs/latest/tutorial/custom-title-bar
+      "frame": false,
+      // Disable rounded corners (MacOS)
+      //  - https://www.electronjs.org/docs/latest/api/base-window#new-basewindowoptions
+      //  - "Whether frameless window should have rounded corners on MacOS"
+      //  - "Setting this property to false will prevent the window from being fullscreenable"
+      "roundedCorners": false,
+    },
+
+
+    "custom-ui-style.stylesheet": {
+    "kbd, .statusbar": {
+      "font-family": "var(--cus-monospace-font)",
+      "font-size": "16px !important",
+    },
+    "kbd, .sidebar": {
+      "font-family": "var(--cus-monospace-font)",
+      // "font-size": "40px !important",
+    },
+    ".monaco-workbench .part>.content": "font-size: 16px !important",
 
 
 }
