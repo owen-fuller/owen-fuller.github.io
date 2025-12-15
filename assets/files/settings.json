@@ -63,6 +63,8 @@
     "commands": ["workbench.action.focusRightGroup"]},
 
 
+
+
     {
       "before": [
         "J"
@@ -118,7 +120,7 @@
     "cpp": false
   },
   "editor.fontFamily": "Iosevka",
-  "workbench.preferredDarkColorTheme": "Gruvbox Dark Hard"
+  "workbench.preferredDarkColorTheme": "Gruvbox Dark Hard",
 
   
 
@@ -140,8 +142,6 @@
       //  - "Setting this property to false will prevent the window from being fullscreenable"
       "roundedCorners": false,
     },
-
-
     "custom-ui-style.stylesheet": {
     "kbd, .statusbar": {
       "font-family": "var(--cus-monospace-font)",
@@ -154,4 +154,7 @@
     ".monaco-workbench .part>.content": "font-size: 16px !important",
 
 
+},
+"editor.lineHeight": 1.2,
+"terminal.integrated.tabs.enabled": false
 }

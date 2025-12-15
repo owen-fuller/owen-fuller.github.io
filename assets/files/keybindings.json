@@ -63,16 +63,18 @@
     "key": "shift+f4",
     "when": "hasSearchResult || inSearchEditor"
   },
+  /////
   {
     "command": "workbench.action.toggleSidebarVisibility",
-    "key": "cmd+shift+e",
+    "key": "cmd+e",
     "when": "activeViewlet == 'workbench.view.explorer'"
   },
   {
     "command": "workbench.view.explorer",
-    "key": "cmd+shift+e",
+    "key": "cmd+e",
     "when": "activeViewlet != 'workbench.view.explorer'"
   },
+  /////
   {
     "command": "workbench.action.toggleSidebarVisibility",
     "key": "cmd+f",
@@ -83,6 +85,7 @@
     "key": "cmd+f",
     "when": "activeViewlet != 'workbench.view.search'"
   },
+  ///////
   {
     "command": "workbench.action.toggleSidebarVisibility",
     "key": "cmd+g",
@@ -93,26 +96,29 @@
     "key": "cmd+g",
     "when": "activeViewlet != 'workbench.view.scm'"
   },
+  ////////
   {
     "command": "workbench.action.toggleSidebarVisibility",
-    "key": "cmd+shift+d",
+    "key": "cmd+d",
     "when": "activeViewlet == 'workbench.view.debug'"
   },
   {
     "command": "workbench.view.debug",
-    "key": "cmd+shift+d",
+    "key": "cmd+d",
     "when": "activeViewlet != 'workbench.view.debug'"
   },
+  /////////
   {
     "command": "workbench.action.toggleSidebarVisibility",
-    "key": "cmd+shift+x",
+    "key": "cmd+x",
     "when": "activeViewlet == 'workbench.view.extensions'"
   },
   {
     "command": "workbench.view.extensions",
-    "key": "cmd+shift+x",
+    "key": "cmd+x",
     "when": "activeViewlet != 'workbench.view.extensions'"
   },
+  ///////
   {
     "command": "workbench.action.openRecent",
     "key": "cmd+o"
@@ -130,10 +136,6 @@
     "key": "cmd+l"
   },
   {
-    "command": "workbench.files.action.focusFilesExplorer",
-    "key": "cmd+e"
-  },
-  {
     "command": "workbench.action.focusFirstEditorGroup",
     "key": "cmd+k"
   },
@@ -143,7 +145,7 @@
   },
   {
     "command": "workbench.action.terminal.toggleTerminal",
-    "key": "shift+cmd+t",
+    "key": "cmd+t",
     "when": "terminal.active"
   },
   {
@@ -156,14 +158,14 @@
     "command": "workbench.action.files.openFolder"
   },
   {
-  "key": "cmd+shift+enter",                 // or any key you prefer
+  "key": "cmd+enter",                 // or any key you prefer
   "command": "workbench.action.terminal.sendSequence",
   "args": { "text": "\u001b[A\u000D" }, // ↑ then Enter
 },
 {
   "key": "cmd+shift+r",                 // or any key you prefer
   "command": "workbench.action.terminal.sendSequence",
-  "args": { "text": "make\u000D" }, // ↑ then Enter
+  "args": { "text": "make\u000D" }, // make then Enter
 },
 {
   "key": "cmd+/",
